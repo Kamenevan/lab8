@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timedelta
 
 # варианты категорий
-CATEGORIES = ["Еда", "Транспорт", "Коммунальные услуги", "Развлечения", "Одежда", "Здравоохранение"]
+CATEGORIES = ["Еда", "Медицинские услуги", "Обслуживание жилья", "Кино и театры", "Обувь и аксессуары", "Образование"]
 
 async def generate_transactions(num_transactions):
     transactions = []
